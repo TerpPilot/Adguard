@@ -1,0 +1,141 @@
+# =========================================================
+# VIDEO / STREAMING SERVICES
+# Explicit allow rules to ensure playback, images, and APIs
+# =========================================================
+
+
+# -------------------------
+# YouTube / YouTube TV
+# -------------------------
+# youtube.com        → site, navigation, account logic
+# ytimg.com          → thumbnails, UI images
+# googlevideo.com    → actual video streams
+
+@@||youtube.com^
+@@||ytimg.com^
+@@||googlevideo.com^
+
+
+# -------------------------
+# Netflix
+# -------------------------
+# netflix.com        → site and app logic
+# nflxvideo.net      → video streams
+# nflximg.net        → artwork, thumbnails
+# nflxext.com        → metadata and DRM helpers
+
+@@||netflix.com^
+@@||nflxvideo.net^
+@@||nflximg.net^
+@@||nflxext.com^
+
+
+# -------------------------
+# Disney+
+# -------------------------
+# disneyplus.com     → UI and service logic
+# bamgrid.com        → authentication, playback backend
+
+@@||disneyplus.com^
+@@||bamgrid.com^
+
+
+# -------------------------
+# Hulu
+# -------------------------
+# hulu.com           → main service
+# huluim.com         → images and UI assets
+
+@@||hulu.com^
+@@||huluim.com^
+
+
+# -------------------------
+# HBO Max / Max
+# -------------------------
+# hbomax.com / max.com     → UI and service routing
+# api.play.hbomax.com     → playback and session API
+
+@@||hbomax.com^
+@@||max.com^
+@@||api.play.hbomax.com^
+
+
+# -------------------------
+# Peacock (NBCUniversal)
+# -------------------------
+# peacocktv.com      → streaming service
+# nbcuni.com         → backend and media services
+
+@@||peacocktv.com^
+@@||nbcuni.com^
+
+
+# -------------------------
+# Paramount+
+# -------------------------
+# paramountplus.com  → streaming service
+# cbsi.com           → legacy CBS backend
+# cbsivideo.com      → video delivery
+
+@@||paramountplus.com^
+@@||cbsi.com^
+@@||cbsivideo.com^
+
+
+# -------------------------
+# Amazon Prime Video
+# -------------------------
+# primevideo.com     → UI and playback logic
+# amazonvideo.com    → service routing
+# media-amazon.com   → artwork and static assets
+# aiv-cdn.net        → video CDN
+
+@@||primevideo.com^
+@@||amazonvideo.com^
+@@||media-amazon.com^
+@@||aiv-cdn.net^
+
+
+# =========================================================
+# PINTEREST (FUNCTIONAL CONTENT ONLY)
+# =========================================================
+
+
+# -------------------------
+# Pinterest (Core Site)
+# -------------------------
+# pinterest.com (+ country TLDs) → UI, routing, feeds
+
+@@||pinterest.com^
+@@||pinterest.co.uk^
+@@||pinterest.ca^
+@@||pinterest.de^
+@@||pinterest.fr^
+@@||pinterest.es^
+@@||pinterest.it^
+
+
+# -------------------------
+# Pinterest Images / CDN
+# -------------------------
+# pinimg.com          → image delivery (critical)
+# pinterestcdn.com   → static assets
+
+@@||pinimg.com^
+@@||pinterestcdn.com^
+
+
+# -------------------------
+# Pinterest APIs / Widgets
+# -------------------------
+# api.pinterest.com      → feed, auth, actions
+# widgets.pinterest.com → embeds and sharing
+
+@@||api.pinterest.com^
+@@||widgets.pinterest.com^
+
+
+# =========================
+# END ALLOWLIST
+# =========================
