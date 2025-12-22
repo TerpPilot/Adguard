@@ -97,45 +97,6 @@
 @@||aiv-cdn.net^
 
 
-# =========================================================
-# PINTEREST (FUNCTIONAL CONTENT ONLY)
-# =========================================================
-
-
-# -------------------------
-# Pinterest (Core Site)
-# -------------------------
-# pinterest.com (+ country TLDs) → UI, routing, feeds
-
-@@||pinterest.com^
-@@||pinterest.co.uk^
-@@||pinterest.ca^
-@@||pinterest.de^
-@@||pinterest.fr^
-@@||pinterest.es^
-@@||pinterest.it^
-
-
-# -------------------------
-# Pinterest Images / CDN
-# -------------------------
-# pinimg.com          → image delivery (critical)
-# pinterestcdn.com   → static assets
-
-@@||pinimg.com^
-@@||pinterestcdn.com^
-
-
-# -------------------------
-# Pinterest APIs / Widgets
-# -------------------------
-# api.pinterest.com      → feed, auth, actions
-# widgets.pinterest.com → embeds and sharing
-
-@@||api.pinterest.com^
-@@||widgets.pinterest.com^
-
-
 # =========================
 # END ALLOWLIST
 # =========================
