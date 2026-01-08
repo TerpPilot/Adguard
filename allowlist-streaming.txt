@@ -97,6 +97,13 @@
 @@||aiv-cdn.net^
 
 
+# -------------------------
+# Miscellaneous 
+# -------------------------
+@@||transunion.com^
+@@||equifax.com^
+@@||experian.com^
+
 # =========================
 # END ALLOWLIST
 # =========================
