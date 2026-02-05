@@ -98,6 +98,26 @@
 
 
 # -------------------------
+# Apple Private Relay
+# -------------------------
+# mask.icloud.com        → relay entry endpoint
+# mask-h2.icloud.com     → HTTP/2 relay endpoint
+# icloud.com             → Apple account infrastructure
+# apple-dns.net          → Apple DNS resolution layer
+# icloud-content.com     → relay content routing
+# gateway.icloud.com     → regional relay gateway
+# relay.apple.com        → relay transport service
+
+@@||mask.icloud.com^
+@@||mask-h2.icloud.com^
+@@||icloud.com^
+@@||apple-dns.net^
+@@||icloud-content.com^
+@@||gateway.icloud.com^
+@@||relay.apple.com^
+
+
+# -------------------------
 # Miscellaneous 
 # -------------------------
 @@||transunion.com^
@@ -107,3 +127,4 @@
 # =========================
 # END ALLOWLIST
 # =========================
+
